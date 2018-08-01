@@ -1,0 +1,29 @@
+{
+  "name": "JKwon-s-Proxy-Server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Front-End-Capstone/JKwon-s-Proxy-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Front-End-Capstone/JKwon-s-Proxy-Server/issues"
+  },
+  "homepage": "https://github.com/Front-End-Capstone/JKwon-s-Proxy-Server#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "path": "^0.12.7",
+    "request": "^2.87.0"
+  }
+}
