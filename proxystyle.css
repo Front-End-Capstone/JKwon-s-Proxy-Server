@@ -1,0 +1,44 @@
+.bigWrapper {
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 24px;
+  }
+  .innerWrapper {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .leftSide {
+    flex: 1;
+  }
+  
+  .rightSide {
+    float: 1;
+    margin-left: 40px;
+  }
+  
+  .innerRight {
+    position: sticky;
+    top: 0px;
+    padding-top: 40px;
+  }
+  .airbnbLogo {
+    width: 25px;
+    border-radius: 0%;
+  }
+  
+  .eventTopBarTable {
+    display: table;
+    width: 100%;
+  }
+  
+  .eventTopBarCellOne {
+    display: table-cell;
+    padding: 20px 20px 14px 20px;
+    width: 9.1%;
+  }
+  
+  .eventTopBarCellTwo {
+    width: 65.25%;
+  }
